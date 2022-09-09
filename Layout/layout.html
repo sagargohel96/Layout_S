@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Layout</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <span>IT-HUB</span>
+      </div>
+      <input type="checkbox" id="click" />
+      <div class="navlist">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown</button>
+              <div class="dropdown-content">
+                <a href="#service">Services</a>
+
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact Us</a>
+              </div>
+            </div>
+          </li>
+          <li class="srch">
+            <input type="text" class="inputsrch" /><button class="srchbtn">
+              Search
+            </button>
+          </li>
+        </ul>
+      </div>
+      <label for="click">
+        <div class="harmburger" for="click">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </label>
+    </div>
+
+    <div class="banner" id="home">
+      <img src="banner.jpg" alt="banner" />
+      <div class="content">
+        <span class="banner-content-primary">New York</span><br />
+        <span class="banner-content-secondary">We love the Big Apple!</span>
+      </div>
+    </div>
+    <div class="aboutUs" id="about">
+      <div class="about-us-heading">
+        <p class="">About Us</p>
+        <div class="hr"></div>
+      </div>
+      <div class="aboutus-content">
+        <div class="aboutus-img">
+          <img src="aboutus.jpg" alt="" />
+        </div>
+        <div class="aboutus-text">
+          <span class="aboutus-primary"><h1>Who am i?</h1></span>
+          <div class="hr1"></div>
+          <span
+            >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam ut
+            accusantium ipsam nostrum odio dolore voluptate assumenda mollitia
+            similique ex magnam, maiores impedit quae, porro nesciunt numquam
+            ipsa voluptatum explicabo?</span
+          >
+          <br />
+          <button class="aboutusbtn">Wanna Know Me</button>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="service">
+      <div class="services-heading">
+        <p class="">Services</p>
+        <div class="hr"></div>
+      </div>
+      <div class="templates">
+        <div class="template">
+          <div class="template-img">
+            <img src="cardA.jpg" alt="card-img" />
+          </div>
+          <div class="template-content">
+            <h3>ReactJS</h3>
+            <span>Frontend Technology</span>
+            <br />
+            <button class="templatebtn">See Profile</button>
+          </div>
+        </div>
+        <div class="template">
+          <div class="template-img">
+            <img src="cardB.jpg" alt="card-img" />
+          </div>
+          <div class="template-content">
+            <h3>ReactJS</h3>
+            <span>Frontend Technology</span>
+            <br />
+            <button class="templatebtn">See Profile</button>
+          </div>
+        </div>
+        <div class="template">
+          <div class="template-img">
+            <img src="cardC.jpg" alt="card-img" />
+          </div>
+          <div class="template-content">
+            <h3>ReactJS</h3>
+            <span>Frontend Technology</span>
+            <br />
+            <button class="templatebtn">See Profile</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <span class="contant-no"><h1>+91 123456787</h1></span>
+      <span><h4>if you want service call us now</h4></span>
+      <button class="contactbtn">Contact Us</button>
+    </div>
+    <div class="gallery-section" id="gallery">
+      <div class="gallery-heading">
+        <p class="">Gallery</p>
+        <div class="hr"></div>
+      </div>
+      <div class="gallery">
+        <div><img src="img1.jpg" alt="img" class="gallery-img" /></div>
+        <div><img src="img2.jpg" alt="img" class="gallery-img" /></div>
+        <div><img src="img3.jpg" alt="img" class="gallery-img" /></div>
+        <div><img src="img4.jpg" alt="img" class="gallery-img" /></div>
+        <div><img src="img5.jpg" alt="img" class="gallery-img" /></div>
+        <div><img src="img6.jpg" alt="img" class="gallery-img" /></div>
+      </div>
+    </div>
+    <div class="join">
+      <span class="#"><h1>Want To Join</h1></span>
+      <span><h4>Be a part of facility</h4></span>
+      <button class="joinbtn">Join Know</button>
+    </div>
+    <div class="contactUs" id="contact">
+      <div class="contactus-heading">
+        <p class="">Contact Us</p>
+        <div class="hr"></div>
+      </div>
+      <div class="form">
+        <table>
+          <tr>
+            <td><label for="fname">Your Name:</label></td>
+          </tr>
+          <tr>
+            <td><input class="inpt" type="text" placeholder="Your Name" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail:</label></td>
+          </tr>
+          <tr>
+            <td><input class="inpt" type="text" placeholder="Email" /></td>
+          </tr>
+          <tr>
+            <td><label for="mno">Phone No:</label></td>
+          </tr>
+          <tr>
+            <td><input class="inpt" type="text" placeholder="Phone No" /></td>
+          </tr>
+          <tr>
+            <td><label for="Message">Message:</label></td>
+          </tr>
+          <tr>
+            <td>
+              <textarea
+                name=""
+                id=""
+                placeholder="Enter your message"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="" id="" /><label for=""
+                >Remember Me</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><button type="submit">Submit</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
